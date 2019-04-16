@@ -1,0 +1,43 @@
+{
+  "name": "@muniftanjim/is-mobile-phone-number-bd",
+  "version": "0.0.0",
+  "description": "Mobile phone number validator for Bangladesh",
+  "keywords": [
+    "validator",
+    "mobile",
+    "phone",
+    "bangladesh"
+  ],
+  "homepage": "https://github.com/MunifTanjim/is-mobile-phone-number-bd#readme",
+  "bugs": {
+    "url": "https://github.com/MunifTanjim/is-mobile-phone-number-bd/issues"
+  },
+  "license": "MIT",
+  "author": "MunifTanjim (https://muniftanjim.com)",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MunifTanjim/is-mobile-phone-number-bd.git"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
+    "husky": "^1.3.1",
+    "jest": "^24.7.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.17.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.3"
+  }
+}
