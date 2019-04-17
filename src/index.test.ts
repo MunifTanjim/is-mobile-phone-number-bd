@@ -1,6 +1,6 @@
 import isMobilePhoneNumberBd from './index'
 
-describe('validator: withCountryCode = undefined', () => {
+describe('validation: withCountryCode = undefined', () => {
   test('must start with: +880/880/0', () => {
     expect(isMobilePhoneNumberBd('+8801712345678')).toBe(true)
     expect(isMobilePhoneNumberBd('8801712345678')).toBe(true)
@@ -29,7 +29,7 @@ describe('validator: withCountryCode = undefined', () => {
   })
 })
 
-describe('validator: withCountryCode = true', () => {
+describe('validation: withCountryCode = true', () => {
   test('must start with: +880/880', () => {
     expect(isMobilePhoneNumberBd('+8801712345678', true)).toBe(true)
     expect(isMobilePhoneNumberBd('8801712345678', true)).toBe(true)
@@ -58,7 +58,7 @@ describe('validator: withCountryCode = true', () => {
   })
 })
 
-describe('validator: withCountryCode = false', () => {
+describe('validation: withCountryCode = false', () => {
   test('must start with: 1', () => {
     expect(isMobilePhoneNumberBd('+8801712345678', false)).toBe(false)
     expect(isMobilePhoneNumberBd('8801712345678', false)).toBe(false)
