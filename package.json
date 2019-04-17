@@ -1,6 +1,6 @@
 {
   "name": "@muniftanjim/is-mobile-phone-number-bd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mobile phone number validator for Bangladesh",
   "keywords": [
     "validator",
